@@ -1,24 +1,28 @@
-body {background-color: #fcf0e1;}
+body {background-color: #edecec6c; color: #0c0c0c; margin: 0; padding: 0;}
 
 
-#nome {
-margin-top: 25px;
+.namecontat {background-color: black; margin: 0; padding: 0;}
+
+.namecontat h2 {
+margin-top: 0px;
 text-align: center;
 text-transform: uppercase;  
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-background-color: rgb(237, 216, 189);}
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;}
 
 
-#contatos {font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     margin-top: 45px;
+.namecontat p {font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: antiquewhite;
     text-align:justify; 
     line-height: 28px;
-     margin-left:40%;}
+     margin-left:654px;}
+@media screen and (max-width:800px) and (min-width:300px) {
+.namecontat {background-color: black; color: antiquewhite;}  
+.namecontat p {margin-left: 100px; font-size: 14px; text-align: left; margin-left: 10px;}  
+}
 
 
 
       a:link, a:visited {
-          background-color:black;
+          background-color:#8348a7;
           color: white;
           font-family:'Times New Roman', Times, serif;
           font-size: 12px;
@@ -33,19 +37,19 @@ background-color: rgb(237, 216, 189);}
         }
         
         a:hover, a:active {
-          background-color: #9857d1;
+          background-color: #efecf2; color: black;
         }
        
 
 
-#objetivo {background-color: #babeba;
+#objetivo {background-color: #babeba; color: rgb(27, 28, 29);
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       font-size: 18px;
        text-align: center;
         border-style: outset;}
 
 
-#paragrafo1 {text-align: center; 
+#paragrafo1 {text-align: center;
           font-family:Arial, Helvetica, sans-serif;
           margin-top: 35px;}
 
